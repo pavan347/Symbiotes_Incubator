@@ -10,11 +10,11 @@ import logo5 from '../assets/images/backedby/logo5.jpeg';
 const BackedBy = () => {
   return (
     <div className="bg-gray-50 py-8">
-      <h2 className="text-center text-lg font-bold text-gray-700 mb-6">
+      <h2 className="text-center text-lg md:text-2xl font-bold text-gray-700 mb-16">
       Backed by the best leaders of the world  
       </h2>
       <div className="overflow-hidden relative w-full">
-        <div className="flex animate-scroll gap-8">
+        <div className="flex justify-evenly gap-8">
           <img src={logo1} alt="Company 1" className="h-16 object-contain" />
           <img src={logo2} alt="Company 2" className="h-16 object-contain" />
           <img src={logo3} alt="Company 3" className="h-16 object-contain" />
