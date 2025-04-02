@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="shadow-md">
-      <div className="flex items-center justify-between px-6 py-4 md:max-w-3/4 mx-auto">
+    <nav className="">
+      <div className="flex items-center justify-between  py-4 md:max-w-4/5 mx-auto">
         {/* Left Section */}
         <div className="flex items-center space-x-4">
           <div className="w-18 pr-1.5">

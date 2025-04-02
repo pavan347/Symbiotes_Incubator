@@ -1,7 +1,7 @@
 import React from 'react';
-import './Page.css';
+import './FindACoFounder.css';
 
-const FindACoFounderPage = () => {
+const FindACoFounder = () => {
   return (
     <div>
       <h1>Find a Co-Founder</h1>
@@ -10,4 +10,4 @@ const FindACoFounderPage = () => {
   );
 }
 
-export default FindACoFounderPage;
+export default FindACoFounder;

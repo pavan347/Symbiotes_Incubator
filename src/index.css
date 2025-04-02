@@ -12,10 +12,27 @@
   --large: 1.25rem;
   --textblack: #000000;
   --textwhite: #ffffff;
-  --textlight: #393939;
+  --textlight: #4d4d4d;
   --textverylight: #b9b7b7;
+  --scroll: scroll 10s linear infinite;
 }
 
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+}
 
 .bg-primary {
     background-color: var(--primary);

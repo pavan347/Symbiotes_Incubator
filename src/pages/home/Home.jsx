@@ -1,13 +1,15 @@
 import React from 'react';
-import './HomePage.css';
+import './Home.css';
+import Hero from '../../components/Hero';
+import BackedBy from '../../components/BackedBy';
 
-const HomePage = () => {
+const Home = () => {
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the main content of the Home page.</p>
+    <div className="w-4/5 mx-auto">
+      <Hero />
+      <BackedBy/>
     </div>
   );
 }
 
-export default HomePage;
+export default Home;

@@ -1,7 +1,7 @@
 import React from 'react';
-import './Page.css';
+import './Library.css';
 
-const LibraryPage = () => {
+const Library = () => {
   return (
     <div>
       <h1>Library Page</h1>
@@ -10,4 +10,4 @@ const LibraryPage = () => {
   );
 }
 
-export default LibraryPage;
+export default Library;

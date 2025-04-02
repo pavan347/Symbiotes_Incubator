@@ -1,7 +1,7 @@
 import React from 'react';
-import './Page.css';
+import './Companies.css';
 
-const CompaniesPage = () => {
+const Companies = () => {
   return (
     <div>
       <h1>Companies Page</h1>
@@ -10,4 +10,4 @@ const CompaniesPage = () => {
   );
 };
 
-export default CompaniesPage;
+export default Companies;
