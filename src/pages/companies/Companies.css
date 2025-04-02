@@ -1,0 +1,15 @@
+/* Companies Page Styles */
+
+.companies-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.companies-page h1 {
+    color: #333;
+}
+
+.companies-page p {
+    color: #666;
+}
