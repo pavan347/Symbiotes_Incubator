@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" md:px-16 py-6 md:py-12 text-center">
-      <div className="border-4 border-white rounded-2xl p-5 shadow-md">
+    <section className="py-6 md:py-12 text-center">
+      <div className=" md:px-16 border-4 border-white rounded-2xl p-5 shadow-md">
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800 leading-snug">
           Launch & Scale Your Startup—Without the Guesswork.
           <br />
